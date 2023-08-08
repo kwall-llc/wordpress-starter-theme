@@ -1,0 +1,170 @@
+.page-template-page--directory{
+ 
+        .person-info-wrapper {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            .person-info-wrapper-col {
+                flex-direction: row;
+                display: flex;
+                margin-bottom: 20px;
+                height: 100%;
+                @include media-breakpoint-up(md) {
+                    flex-direction: row;
+                }
+                .user-person-info {
+                    padding:15px;
+                    .user-name {
+                        h4{
+                            font-size: 2em;
+                            font-weight: 700;
+                            line-height: 23px;
+                            color: $main-blue;
+                        }
+
+                    }
+                    .user-caption {
+                        color: $main-blue;
+                        font-weight: 500;
+                        font-style: italic;
+                    }
+                    .user-email,.user-phone{
+                        a{
+                            color: $dark-blue;
+                        }
+                    }
+                }
+                .img{
+                    max-width: 173px;
+                    max-height: 173px;
+                    border-radius: 100%;
+                }
+            } 
+        }
+    
+    .search-wrapper{
+        padding: 23px 20px;
+        position: relative;
+        background: transparent;
+        color: $main-blue;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        .input-wrapper{
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            margin-bottom: 13px;
+            @include media-breakpoint-up(md) {
+                flex-direction: row;
+            }
+            input{
+                border: 1px solid $main-blue;
+                margin: 0;
+                padding: 9px 10px;
+                box-sizing: border-box;
+                flex: 1;
+                padding-bottom: 13px;
+                color: $main-blue;
+                margin-bottom: 30px;
+                background: transparent;
+                border-radius: 0;
+                @include media-breakpoint-up(md) {
+                    margin-right: 20px;
+                    border: none;
+                    border-bottom: 1px solid $main-blue;
+                    margin-bottom: 15px;
+                }
+                &::placeholder{
+                    color: $main-blue;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            
+        }
+        label{
+            margin-bottom: 9px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $main-blue;
+            font-weight: 700;
+        }
+        
+    }
+    h1 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .degree-container{
+        position: relative;
+        overflow-x: clip;
+        .bg{
+            @include media-breakpoint-up(lg) {
+            position: absolute;
+            border-radius: 50%;
+            width: 120%;
+            height: 480px;
+            background-color: $grey;
+            z-index: -1;
+            top: -240px;
+            left: -9.5%;
+            }
+        }
+    }
+}
+.person-section{
+    .degree-container{
+        position: relative;
+        overflow-x: clip;
+        .bg{
+            @include media-breakpoint-up(lg) {
+            position: absolute;
+            border-radius: 50%;
+            width: 120%;
+            height: 480px;
+            background-color: $grey;
+            z-index: -1;
+            top: -240px;
+            left: -9.5%;
+            }
+        }
+    }
+    .person-info-wrapper {
+        margin-top: 15px;
+        margin-bottom: 15px;
+            img{
+                max-width: 366px;
+                max-height: 366px;
+                border-radius: 100%;
+            }
+            .user-person-info {
+                padding:15px;
+            
+                    h4{
+                        font-size: 2em;
+                        font-weight: 700;
+                        line-height: 23px;
+                        color: $main-blue;
+                    }
+            
+                
+                .user-caption {
+                    color: $main-blue;
+                    font-weight: 500;
+                    font-style: italic;
+                }
+                .user-email,.user-phone{
+                    a{
+                        color: $dark-blue;
+                    }
+                }
+            }
+        } 
+
+
+}

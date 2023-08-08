@@ -1,0 +1,168 @@
+.page-template-page--single-degree{
+    .main-content-wrap{
+        margin-top: 15px;
+    }
+    .degree-container{
+        position: relative;
+        overflow-x: clip;
+        .bg{
+            @include media-breakpoint-up(lg) {
+            position: absolute;
+            border-radius: 50%;
+            width: 120%;
+            height: 480px;
+            background-color: $grey;
+            z-index: -1;
+            top: -240px;
+            left: -9.5%;
+            }
+        }
+    }
+    }
+
+.page-template-page--degrees{
+
+     .degree-form-wrapper {
+        margin: 30px auto 50px;
+        @include media-breakpoint-up(md) {
+            margin: 80px auto 50px;
+        }
+    }
+    .degree-container{
+        position: relative;
+        overflow-x: clip;
+        .bg{
+            @include media-breakpoint-up(lg) {
+            position: absolute;
+            border-radius: 50%;
+            width: 120%;
+            height: 480px;
+            background-color: $grey;
+            z-index: -1;
+            top: -240px;
+            left: -9.5%;
+            }
+        }
+    }
+    .filter-button {
+        font-size: 16px;
+        font-weight: 400;
+        color: #404040;
+        height: 100px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .filter-toggle{
+        &:hover{
+            border-bottom: 4px solid $light-blue;
+          }
+
+        .fontawesome-icons{
+            font-size: 20px;
+            color: $light-blue;
+        }
+        
+    }
+    .active {
+        &:hover{
+            color: $main-blue;
+            border-bottom: 4px solid $main-blue;
+        }
+        color: $main-blue;
+        border-bottom: 4px solid $main-blue;
+    }
+    .filter-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        .interest-link {
+            text-decoration: none;
+            color: inherit;
+            &:hover {
+                color: inherit;
+            }
+            .interest-title {
+                width: 100%;
+              border-bottom: 2px solid main-blue;
+                padding: 10px 0;
+            }
+            .interest-degree-wrap {
+                color: #002D65;
+            }
+        }
+    }
+
+    .search-wrapper{
+        padding: 23px 20px;
+        position: relative;
+        background: linear-gradient(135deg, #E7AF5B 0%, #D98042 97.44%);
+        color: $white;
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        .input-wrapper{
+            flex-direction: column;
+            display: flex;
+            width: 100%;
+            margin-bottom: 13px;
+            @include media-breakpoint-up(md) {
+                flex-direction: row;
+            }
+            input{
+                border: 1px solid $dark-blue;
+                margin: 0;
+                padding: 9px 10px;
+                box-sizing: border-box;
+                flex: 1;
+                padding-bottom: 13px;
+                color: $dark-blue;
+                margin-bottom: 30px;
+                background: transparent;
+                border-radius: 0;
+                @include media-breakpoint-up(md) {
+                    margin-right: 20px;
+                    border: none;
+                    border-bottom: 1px solid $dark-blue;
+                    margin-bottom: 15px;
+                }
+                &::placeholder{
+                    color: $dark-blue;
+                }
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                padding: 14px 30px;
+                background: $dark-blue;
+                border-radius: 0;
+                margin: 10px;
+                font-size: 20px;
+                line-height: 23px;
+                text-align: center;
+                text-transform: uppercase;
+                color: $white;
+                margin-bottom: 15px;
+                border-color: $dark-blue;
+                &:hover{
+                    background-color: transparent;
+                    color: $dark-blue;
+                    border-color: $dark-blue;
+                    transition: .2s ease-in-out;
+                    -webkit-transition: .2s ease-in-out;
+                }
+            }
+        }
+        label{
+            margin-bottom: 9px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: center;
+            text-transform: uppercase;
+            color: $main-blue;
+            font-weight: 700;
+        }
+        
+    }
+}

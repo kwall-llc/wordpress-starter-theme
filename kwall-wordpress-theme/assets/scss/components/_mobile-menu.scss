@@ -1,0 +1,297 @@
+html body div.wprm-wrapper {
+  position: fixed;
+  top: 0;
+  overflow: unset;
+  width: 100%;
+}
+
+.wprm-wrapper {
+  #wprmenu_bar {
+    position: relative;
+  }
+}
+
+#mg-wprm-wrap {
+  &.cbp-spmenu {
+    top: 76px !important;
+    z-index: 99999;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: none;
+    //border-left: 45px solid $black-50;
+
+    @media only screen and (max-width: 1239px) {
+      display: block;
+    }
+    @media only screen and (max-width: 768px) {
+      max-width:inherit;
+    }
+    .admin-bar &{
+      top: 116px !important;
+    }
+  }
+
+  #wprmenu_menu_ul {
+    // padding: 50px 20px 0 20px;
+    padding: 0;
+    background: #fff;
+    position: absolute;
+    width:75%;
+    left:25%;
+    height: inherit;
+    &>li:first-child {
+      background: #E7AF5B;
+    }
+    .main-div {
+      display: flex;
+      justify-content: space-between;
+      background: #F4F6F8;
+      border-bottom: 1px solid #B2C2D0;
+      margin-bottom: 35px;
+      li a{
+        border-bottom: none;
+      }
+    }
+    li {
+      .current-item-active {
+        width:100%;
+      }
+      position: relative;
+      padding: 15px 24px;
+
+      > a {
+        //color: #333333 !important;
+        //font-family: $font-montserrat;
+        //font-style: normal !important;
+        //font-weight: 700 !important;
+        //font-size: 12px !important;
+        //line-height: 15px !important;
+        //padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-family: $font-roboto-condensed;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: $main-blue !important;
+        display: inline-block;
+        padding: 0 0 5px 0;
+        border-bottom: 1px solid $neutral-3;
+      }
+
+      span.wprmenu_icon {
+        position: absolute;
+        right: 24px;
+        top: 30px;
+        line-height: normal;
+        transform: translate(0, -8px);
+        padding: 10px;
+        &:before {
+          content: "\f105";
+          font-family: "FontAwesome";
+          top: 0px !important;
+          transform: rotate(90deg);
+        }
+        &.wprmenu_par_opened {
+          &:before {
+            content: "\f107";
+            transform: rotate(180deg);
+          }
+        }
+      }
+
+      &:last-child{
+        border-bottom: 0;
+      }
+
+      & .sub-menu {
+        padding:0;
+        li {
+          padding:5px 8px;
+          &:first-child{
+            padding-top:20px;
+            span {
+              top: 30px;
+            }
+          }
+          &:last-child{
+            padding-bottom:0;
+          }
+          & span {
+            right: 4px;
+            top: 20px;
+          }
+          & a {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: left;
+            text-transform: uppercase;
+            border-bottom: none;
+          }
+        }
+        .current-item-active a {
+          width:100%;
+        }
+      }
+    }
+
+    .wpr_search {
+
+      margin: 0 !important;
+      // padding: 20px 20px !important;
+      // width: 80% !important;
+      width: 100% !important;
+      border-bottom: 2px solid $main-blue;
+      .wpr-search-form {
+        label {
+          display: none;
+        }
+
+        input {
+          height: 24px;
+          font-family: $font-roboto-condensed;
+          color: $neutral-2;
+          border: none;
+          background: transparent;
+          width: 100%;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        button.wpr_submit {
+          width: 19px;
+          height: 19px;
+          i{
+            color: $main-blue;
+          }
+        }
+      }
+
+      .unibox {
+        display: none !important;
+      }
+    }
+  }
+}
+
+#wprmenu_bar {
+  pointer-events: none;
+  padding: 20px 20px 5px;
+  height: auto !important;
+  background: #fff;
+  display: none;
+
+  @media only screen and (max-width: 768px) {
+    display: block;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .hamburger {
+    pointer-events: auto;
+    width: 38px;
+    text-align: center;
+    height: 100%;
+    padding: 5px 0;
+    margin: 0 !important;
+    border-radius: 5px;
+    float: right;
+
+    & + .menu_title {
+      display: none;
+    }
+  }
+
+  .search-button {
+    content: "";
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 70px;
+    pointer-events: auto;
+    cursor: pointer;
+    background-image: url("/wp-content/uploads/2023/01/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .menu_title {
+    font-size: 0;
+    top: 0;
+    float: left;
+
+    a {
+      top: 0;
+
+      .bar_logo {
+        padding: 0;
+        width: auto;
+        height: 42px;
+        pointer-events: auto;
+      }
+    }
+  }
+}
+
+.back-button-wrapper {
+  position: fixed;
+  top: 76px;
+  height: 48px;
+  float: right;
+  max-width: 400px;
+  width: 100%;
+  right: 0;
+  z-index: 999999;
+  font-size: 20px;
+  display: none;
+  .admin-bar &{
+    top: 116px !important;
+  }
+
+
+  .back-button-container{
+    text-align: right;
+    margin: 0 20px;
+    border-bottom: 1px solid #C5C5C5;
+    padding-top: 15px;
+    padding-bottom: 6px;
+  }
+  .back-button {
+    display: inline-block;
+    padding: 0;
+    box-sizing: unset;
+    border: none;
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #444444;
+    position: relative;
+
+    &:before {
+      content: "\f104";
+      font-family: "FontAwesome";
+      font-weight: 400;
+      font-size: 14px;
+      position: absolute;
+      left: -15px;
+    }
+  }
+
+  .active-back-button & {
+    display: none;
+  }
+}
+  
