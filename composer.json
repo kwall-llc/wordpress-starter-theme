@@ -31,5 +31,10 @@
     "support": {
         "issues": "https://github.com/kwall/kwall-wordpress-theme/issues",
         "source": "https://github.com/kwall/kwall-wordpress-theme/_s"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }

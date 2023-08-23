@@ -1,0 +1,5 @@
+/node_modules/*
+.htaccess
+!/node_modules/bootstrap
+!/node_modules/bootstrap/vendor
+/vendor

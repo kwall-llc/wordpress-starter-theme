@@ -47,8 +47,8 @@
 				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
-			$rwjones_description = get_bloginfo( 'description', 'display' );
-			if ( $rwjones_description || is_customize_preview() ) :
+			$kwallsites = get_bloginfo( 'description', 'display' );
+			if ( $kwallsites || is_customize_preview() ) :
 				?>
 			<?php endif; ?>
 				</div>
