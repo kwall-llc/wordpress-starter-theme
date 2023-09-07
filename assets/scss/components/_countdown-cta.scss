@@ -27,7 +27,6 @@
 				color: $white;
 				font-size: 36px;
 				line-height: 66px;
-				font-family: $font-roboto-condensed;
 				@include media-breakpoint-up(md) {
 					font-size: 56px;
 					line-height: 66px;
@@ -38,7 +37,7 @@
 				font-size: 20px;
 				line-height: 37px;
 				letter-spacing: 1.5px;
-				font-family: $font-manuale;
+				font-family: $font;
 				text-transform: uppercase;
 				color: $primary-2;
 				@include media-breakpoint-up(md) {

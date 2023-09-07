@@ -24,7 +24,7 @@
         },
         {
             "key": "field_6202de34da996",
-            "label": "button link",
+            "label": "Button",
             "name": "button_link",
             "aria-label": "",
             "type": "link",
@@ -36,6 +36,7 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "return_format": "array"
         },
         {
@@ -97,5 +98,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693404978
 }

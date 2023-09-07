@@ -1,6 +1,6 @@
 {
     "key": "group_62223d9d2efa2",
-    "title": "Block: fullwidth Media Section",
+    "title": "Block: CTA Full Width Image",
     "fields": [
         {
             "key": "field_62223daa2aad4",
@@ -69,7 +69,7 @@
             "sub_fields": [
                 {
                     "key": "field_62223de32aad8",
-                    "label": "button link",
+                    "label": "Button Link",
                     "name": "button_link",
                     "aria-label": "",
                     "type": "link",
@@ -81,6 +81,7 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "return_format": "array",
                     "parent_repeater": "field_62223dc92aad6"
                 }
@@ -106,5 +107,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693331425
 }

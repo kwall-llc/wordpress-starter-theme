@@ -218,11 +218,11 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/customizer.php';
 
 require_once('inc/degree-filter-ajax.php');
-require_once get_template_directory() . '/inc/scssphp/scss.inc.php';
+require get_template_directory() . '/inc/scssphp/scss.inc.php';
 /**
  * Color Picker.
  */
-require_once(TEMPLATEPATH.'/inc/color-picker.php');
+//require_once(TEMPLATEPATH.'/inc/color-picker.php');
 /**
  * ACF Config.
  */

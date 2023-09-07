@@ -164,7 +164,7 @@
                 },
                 {
                     "key": "field_6419f8408b52f",
-                    "label": "social links",
+                    "label": "Social Links",
                     "name": "",
                     "aria-label": "",
                     "type": "tab",
@@ -182,7 +182,7 @@
                 },
                 {
                     "key": "field_6419f8508b530",
-                    "label": "facebook link",
+                    "label": "Facebook Link",
                     "name": "facebook_link",
                     "aria-label": "",
                     "type": "link",
@@ -199,7 +199,7 @@
                 },
                 {
                     "key": "field_6419f8638b533",
-                    "label": "twitter link",
+                    "label": "Twitter Link",
                     "name": "twitter_link",
                     "aria-label": "",
                     "type": "link",
@@ -212,11 +212,11 @@
                         "id": ""
                     },
                     "relevanssi_exclude": 0,
-                    "return_format": ""
+                    "return_format": "array"
                 },
                 {
                     "key": "field_6419f8618b531",
-                    "label": "instagram link",
+                    "label": "Instagram Link",
                     "name": "instagram_link",
                     "aria-label": "",
                     "type": "link",
@@ -233,7 +233,7 @@
                 },
                 {
                     "key": "field_6419f8628b532",
-                    "label": "youtube link",
+                    "label": "Youtube Link",
                     "name": "youtube_link",
                     "aria-label": "",
                     "type": "link",
@@ -250,7 +250,7 @@
                 },
                 {
                     "key": "field_6419f8a08b534",
-                    "label": "linkedin link",
+                    "label": "Linkedin Link",
                     "name": "linked_link",
                     "aria-label": "",
                     "type": "link",
@@ -286,5 +286,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693402338
 }

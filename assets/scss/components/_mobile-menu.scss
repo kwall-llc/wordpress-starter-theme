@@ -61,7 +61,6 @@ html body div.wprm-wrapper {
 
       > a {
         //color: #333333 !important;
-        //font-family: $font-montserrat;
         //font-style: normal !important;
         //font-weight: 700 !important;
         //font-size: 12px !important;
@@ -69,7 +68,7 @@ html body div.wprm-wrapper {
         //padding: 0;
         margin-left: 0;
         margin-right: 0;
-        font-family: $font-roboto-condensed;
+        font-family: $font;
         font-style: normal;
         font-weight: 700;
         font-size: 20px;
@@ -124,7 +123,6 @@ html body div.wprm-wrapper {
             top: 20px;
           }
           & a {
-            font-family: 'Roboto';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
@@ -154,7 +152,7 @@ html body div.wprm-wrapper {
 
         input {
           height: 24px;
-          font-family: $font-roboto-condensed;
+          font-family: $font;
           color: $neutral-2;
           border: none;
           background: transparent;
@@ -271,7 +269,7 @@ html body div.wprm-wrapper {
     padding: 0;
     box-sizing: unset;
     border: none;
-    font-family: $font-montserrat;
+    font-family: $font;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;

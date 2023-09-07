@@ -31,7 +31,7 @@
       a{
         text-decoration: none;
         color: $primary-1;
-        font-family: $font-roboto-condensed;
+        font-family: $font;
         font-size: 1.125em;
 
         &:hover{
@@ -74,7 +74,7 @@ li.mega-menu-column
 > ul.mega-sub-menu
 > li.mega-menu-item
 > a.mega-menu-link {
-  font-family: $font-roboto-condensed;
+  font-family: $font;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -93,7 +93,7 @@ li.mega-menu-column
 > li.mega-menu-item
 li.mega-menu-item
 > a.mega-menu-link {
-  font-family: $font-roboto-condensed;
+  font-family: $font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -198,7 +198,7 @@ li.mega-menu-megamenu
       &__item {
         margin-bottom: 7px;
         &--link {
-          font-family: $font-roboto-condensed;
+          font-family: $font;
           font-style: normal;
           font-weight: 700;
           font-size: 16px;

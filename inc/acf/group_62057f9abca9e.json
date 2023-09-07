@@ -1,10 +1,10 @@
 {
     "key": "group_62057f9abca9e",
-    "title": "Block: footer address",
+    "title": "Block: Footer Address",
     "fields": [
         {
             "key": "field_62057fa44a8ef",
-            "label": "school name",
+            "label": "School Name",
             "name": "school_name",
             "aria-label": "",
             "type": "text",
@@ -16,15 +16,16 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_62057fb04a8f0",
-            "label": "school address",
+            "label": "School Address",
             "name": "school_address",
             "aria-label": "",
             "type": "wysiwyg",
@@ -36,6 +37,7 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
             "tabs": "all",
             "toolbar": "full",
@@ -44,7 +46,7 @@
         },
         {
             "key": "field_62057fc84a8f1",
-            "label": "social repeater",
+            "label": "Social Repeater",
             "name": "social_repeater",
             "aria-label": "",
             "type": "repeater",
@@ -56,15 +58,18 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
+            "relevanssi_exclude": 0,
+            "layout": "row",
+            "pagination": 0,
             "min": 0,
             "max": 5,
-            "layout": "row",
+            "collapsed": "",
             "button_label": "Add Row",
+            "rows_per_page": 20,
             "sub_fields": [
                 {
                     "key": "field_6205800b4a8f3",
-                    "label": "social icon",
+                    "label": "Social Icon",
                     "name": "social_icon",
                     "aria-label": "",
                     "type": "text",
@@ -76,16 +81,17 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_62057fc84a8f1"
                 },
                 {
                     "key": "field_62057ffb4a8f2",
-                    "label": "social link",
+                    "label": "Social Link",
                     "name": "social_link",
                     "aria-label": "",
                     "type": "text",
@@ -97,15 +103,15 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_62057fc84a8f1"
                 }
-            ],
-            "rows_per_page": 20
+            ]
         }
     ],
     "location": [
@@ -126,5 +132,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693331375
 }

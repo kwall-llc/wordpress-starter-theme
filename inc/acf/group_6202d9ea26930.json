@@ -92,7 +92,7 @@
                 },
                 {
                     "key": "field_6202dc0359907",
-                    "label": "number",
+                    "label": "Number",
                     "name": "number",
                     "aria-label": "",
                     "type": "text",
@@ -104,11 +104,12 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_62266f5e9f349"
                 },
                 {
@@ -154,5 +155,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693341222
 }

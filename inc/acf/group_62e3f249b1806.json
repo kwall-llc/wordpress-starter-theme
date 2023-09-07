@@ -160,7 +160,7 @@
         },
         {
             "key": "field_62e3fa6928910",
-            "label": "Program contact",
+            "label": "Program Contact",
             "name": "program_contact",
             "aria-label": "",
             "type": "group",
@@ -172,6 +172,7 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "layout": "block",
             "sub_fields": [
                 {
@@ -421,5 +422,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693403084
 }

@@ -8,7 +8,7 @@
             "name": "taxonomy_icon",
             "aria-label": "",
             "type": "font-awesome",
-            "instructions": "",
+            "instructions": "Taxonomy Icon for interest area taxonomy (used on degree programs for filtering)",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -16,6 +16,7 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "icon_sets": [
                 "solid",
                 "regular",
@@ -50,5 +51,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693402870
 }

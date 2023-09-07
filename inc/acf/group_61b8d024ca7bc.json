@@ -102,7 +102,7 @@
                     "name": "alert_color",
                     "aria-label": "",
                     "type": "select",
-                    "instructions": "",
+                    "instructions": "Set Alert color",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -131,7 +131,7 @@
                     "name": "alert_expiration",
                     "aria-label": "",
                     "type": "date_time_picker",
-                    "instructions": "",
+                    "instructions": "Set expiration date for your alert",
                     "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -139,12 +139,10 @@
                         "class": "",
                         "id": ""
                     },
-                    "acfe_permissions": "",
+                    "relevanssi_exclude": 0,
                     "display_format": "d\/m\/Y g:i a",
                     "return_format": "Y-m-d H:i:s",
                     "first_day": 1,
-                    "acfe_settings": "",
-                    "acfe_validate": "",
                     "parent_repeater": "field_62dec4d8f341b"
                 }
             ],
@@ -169,5 +167,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693405056
 }

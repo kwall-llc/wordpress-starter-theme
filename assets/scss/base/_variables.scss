@@ -36,7 +36,16 @@ $secondary-gradient: linear-gradient(135deg, #E7AF5B 0%, #D98042 97.44%);
 // @include media-breakpoint-up(md) {}
 
 // @include media-breakpoint-up(lg) {}
-$font-montserrat: 'Montserrat', sans-serif;
-$font-roboto-condensed: 'Roboto Condensed', sans-serif;
-$font-roboto: 'Roboto', sans-serif;
-$font-manuale: 'Manuale', serif;
+$font: 'Montserrat', sans-serif !default;
+//  $font-roboto-condensed: 'Roboto Condensed', sans-serif;
+//  $font-roboto: 'Roboto', sans-serif;
+  $font-manuale: 'Manuale', serif;
+
+// font-family: 'Jost', sans-serif;
+// font-family: 'Manuale', serif;
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Playfair Display', serif;
+// font-family: 'PT Serif', serif;
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Roboto Condensed', sans-serif;

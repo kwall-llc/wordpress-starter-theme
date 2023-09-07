@@ -1,6 +1,6 @@
 {
     "key": "group_6217dc269eb28",
-    "title": "Block: Experience Carousel",
+    "title": "Block: Carousel",
     "fields": [
         {
             "key": "field_6217dc410d117",
@@ -157,7 +157,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/experience-carousel"
+                "value": "acf\/carousel"
             }
         ]
     ],
@@ -170,5 +170,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693331216
 }

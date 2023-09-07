@@ -1,10 +1,10 @@
 {
     "key": "group_6217e24cc9f95",
-    "title": "Block: Featured Academics",
+    "title": "Block: Program Categories",
     "fields": [
         {
             "key": "field_6217e2a438af0",
-            "label": "Career title",
+            "label": "Career Title",
             "name": "career_title",
             "aria-label": "",
             "type": "text",
@@ -16,15 +16,16 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_6217e2ae38af1",
-            "label": "Career copy",
+            "label": "Career Copy",
             "name": "career_copy",
             "aria-label": "",
             "type": "text",
@@ -36,15 +37,16 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_6217e2c479cbc",
-            "label": "career button link",
+            "label": "career Button Link",
             "name": "career_button_link",
             "aria-label": "",
             "type": "link",
@@ -56,11 +58,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "return_format": "array"
         },
         {
             "key": "field_6217e2d079cbd",
-            "label": "career repeater",
+            "label": "Career Repeater",
             "name": "career_repeater",
             "aria-label": "",
             "type": "repeater",
@@ -72,15 +75,18 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
+            "relevanssi_exclude": 0,
+            "layout": "row",
+            "pagination": 0,
             "min": 0,
             "max": 0,
-            "layout": "row",
+            "collapsed": "",
             "button_label": "Add Row",
+            "rows_per_page": 20,
             "sub_fields": [
                 {
                     "key": "field_6217e39679cbe",
-                    "label": "career icon",
+                    "label": "Career Icon",
                     "name": "career_icon",
                     "aria-label": "",
                     "type": "font-awesome",
@@ -92,6 +98,7 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "icon_sets": [
                         "solid",
                         "regular",
@@ -110,7 +117,7 @@
                 },
                 {
                     "key": "field_6217e51f79cc1",
-                    "label": "career title",
+                    "label": "Career Title",
                     "name": "career_title",
                     "aria-label": "",
                     "type": "text",
@@ -122,16 +129,17 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_6217e2d079cbd"
                 },
                 {
                     "key": "field_6217e39d79cbf",
-                    "label": "career link",
+                    "label": "Career Link",
                     "name": "career_link",
                     "aria-label": "",
                     "type": "text",
@@ -143,16 +151,17 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_6217e2d079cbd"
                 },
                 {
                     "key": "field_6217e3a279cc0",
-                    "label": "career background color",
+                    "label": "Career Background Color",
                     "name": "career_bg_color",
                     "aria-label": "",
                     "type": "text",
@@ -164,19 +173,19 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_6217e2d079cbd"
                 }
-            ],
-            "rows_per_page": 20
+            ]
         },
         {
             "key": "field_6217e5ee7891b",
-            "label": "stat repeater",
+            "label": "Stat Repeater",
             "name": "stat_repeater",
             "aria-label": "",
             "type": "repeater",
@@ -188,15 +197,18 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "",
+            "relevanssi_exclude": 0,
+            "layout": "row",
+            "pagination": 0,
             "min": 0,
             "max": 4,
-            "layout": "row",
+            "collapsed": "",
             "button_label": "Add Row",
+            "rows_per_page": 20,
             "sub_fields": [
                 {
                     "key": "field_6217e5fe7891c",
-                    "label": "stat number",
+                    "label": "Stat Number",
                     "name": "stat_number",
                     "aria-label": "",
                     "type": "text",
@@ -208,16 +220,17 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_6217e5ee7891b"
                 },
                 {
                     "key": "field_6217e60c7891d",
-                    "label": "stat title",
+                    "label": "Stat Title",
                     "name": "stat_title",
                     "aria-label": "",
                     "type": "text",
@@ -229,15 +242,15 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
                     "append": "",
-                    "maxlength": "",
                     "parent_repeater": "field_6217e5ee7891b"
                 }
-            ],
-            "rows_per_page": 20
+            ]
         }
     ],
     "location": [
@@ -245,7 +258,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/future-career"
+                "value": "acf\/program-categories"
             }
         ]
     ],
@@ -258,5 +271,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693403519
 }

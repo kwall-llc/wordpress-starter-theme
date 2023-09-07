@@ -1,6 +1,6 @@
 {
     "key": "group_62e3fc151b246",
-    "title": "Degree career path w\/ image",
+    "title": "Degree Career Path w\/ Image",
     "fields": [
         {
             "key": "field_62e3fc402023a",
@@ -44,7 +44,7 @@
         },
         {
             "key": "field_62e3fc682023c",
-            "label": "Career paths",
+            "label": "Career Paths",
             "name": "career_paths",
             "aria-label": "",
             "type": "group",
@@ -56,11 +56,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "layout": "block",
             "sub_fields": [
                 {
                     "key": "field_62e3fc812023d",
-                    "label": "Career paths title",
+                    "label": "Career Path Title",
                     "name": "career_paths_title",
                     "aria-label": "",
                     "type": "text",
@@ -72,11 +73,12 @@
                         "class": "",
                         "id": ""
                     },
+                    "relevanssi_exclude": 0,
                     "default_value": "",
+                    "maxlength": "",
                     "placeholder": "",
                     "prepend": "",
-                    "append": "",
-                    "maxlength": ""
+                    "append": ""
                 },
                 {
                     "key": "field_62e3fc8d2023e",
@@ -168,5 +170,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693403162
 }

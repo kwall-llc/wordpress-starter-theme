@@ -8,7 +8,7 @@
             "name": "newsroom_search_shortcode",
             "aria-label": "",
             "type": "text",
-            "instructions": "",
+            "instructions": "Add Shortcode from Search & Filter plugin to display search bar",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -16,11 +16,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_6351b1b0f784f",
@@ -28,7 +29,7 @@
             "name": "newsroom_results_shortcode",
             "aria-label": "",
             "type": "text",
-            "instructions": "",
+            "instructions": "Add Shortcode from Search & Filter plugin to display results of search",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -36,11 +37,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         }
     ],
     "location": [
@@ -61,5 +63,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693402640
 }

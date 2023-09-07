@@ -1,10 +1,10 @@
 {
     "key": "group_6202df4d350d6",
-    "title": "Block: Button CTA",
+    "title": "Block: Image, CTA and Text Slot",
     "fields": [
         {
             "key": "field_6202df540f047",
-            "label": "Info Title",
+            "label": "Title",
             "name": "info_title",
             "aria-label": "",
             "type": "text",
@@ -16,15 +16,16 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_6202df5a0f048",
-            "label": "Info Copy",
+            "label": "Copy",
             "name": "info_copy",
             "aria-label": "",
             "type": "text",
@@ -36,15 +37,16 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_6202df730f04a",
-            "label": "button 1",
+            "label": "Button 1",
             "name": "button_1_link",
             "aria-label": "",
             "type": "link",
@@ -56,11 +58,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "return_format": "array"
         },
         {
             "key": "field_6202df7e426bf",
-            "label": "button 2",
+            "label": "Button 2",
             "name": "button_2_link",
             "aria-label": "",
             "type": "link",
@@ -72,7 +75,86 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "return_format": "array"
+        },
+        {
+            "key": "field_64ef5aa6d72d9",
+            "label": "Large Image",
+            "name": "large_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64ef5ac9246a9",
+            "label": "Medium Image",
+            "name": "medium_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
+        },
+        {
+            "key": "field_64ef5ae2246aa",
+            "label": "Small Image",
+            "name": "small_image",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "relevanssi_exclude": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "preview_size": "medium"
         }
     ],
     "location": [
@@ -80,7 +162,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf\/request-info"
+                "value": "acf\/cta-img-text"
             }
         ]
     ],
@@ -93,5 +175,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693407996
 }

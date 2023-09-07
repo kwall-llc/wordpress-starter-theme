@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_61d4cd8318ad5",
-            "label": "accordion id",
+            "label": "Accordion ID",
             "name": "accordion_id",
             "aria-label": "",
             "type": "text",
@@ -16,11 +16,12 @@
                 "class": "",
                 "id": ""
             },
+            "relevanssi_exclude": 0,
             "default_value": "",
+            "maxlength": "",
             "placeholder": "",
             "prepend": "",
-            "append": "",
-            "maxlength": ""
+            "append": ""
         },
         {
             "key": "field_61a5440bc25cb",
@@ -107,5 +108,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693405004
 }

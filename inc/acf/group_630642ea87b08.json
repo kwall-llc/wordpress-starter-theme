@@ -1,10 +1,10 @@
 {
     "key": "group_630642ea87b08",
-    "title": "Degree taxonomy",
+    "title": "Degree Taxonomy",
     "fields": [
         {
             "key": "field_6306430b57235",
-            "label": "Path",
+            "label": "Degree Taxonomy",
             "name": "path",
             "aria-label": "",
             "type": "taxonomy",
@@ -16,12 +16,13 @@
                 "class": "",
                 "id": ""
             },
-            "taxonomy": "path",
-            "field_type": "checkbox",
+            "relevanssi_exclude": 0,
+            "taxonomy": "category",
             "add_term": 1,
             "save_terms": 1,
             "load_terms": 0,
             "return_format": "object",
+            "field_type": "checkbox",
             "multiple": 0,
             "allow_null": 0
         }
@@ -44,5 +45,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1692719977
+    "modified": 1693402891
 }
